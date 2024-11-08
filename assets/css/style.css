@@ -3171,7 +3171,9 @@ form.d_block {
         padding-right: 0;
     }
     .as_banner_slider .slick-arrow.slick-next {
-        right: -580px;
+        right: -500px;
+        width: 50px;
+        height: 50px;
     }
     .as_customer_wrapper .slick-prev {
         left: 0;
@@ -3265,6 +3267,9 @@ form.d_block {
     }
 }
 @media (max-width:1145px){
+    #map{
+        width: 330px;
+    }
     .as_info_detail ul li .as_infobox>span.as_orange {
         width: 50px;
         text-overflow: ellipsis;
@@ -3272,6 +3277,7 @@ form.d_block {
         overflow: hidden;
     }
 }
+
 @media (max-width:991px){
     .as_heading {
         font-size: 28px;
@@ -3434,6 +3440,7 @@ form.d_block {
 }
 
 @media (max-width:768px){
+    
     .as_verticle_center{
         display: block;
     }
